@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background: -moz-linear-gradient(wheat,white);
+}
+
+.navbar{
+    padding: 2vw;
+}
+
+.button-navbar {
+    float: right;
+}
+
+.button-navbar-home{
+    float: left;
+}
+
+.navbar:hover {
+    backdrop-filter: blur(10px);
+}
