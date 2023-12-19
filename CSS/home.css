@@ -1,24 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
-body{
-    background: -moz-linear-gradient(wheat,white);
+body {
+    background: linear-gradient(to right, #ff5555, #b861ff);
+    color: #f8f8f2;
+    
 }
 
-.navbar{
+.navbar {
     padding: 2vw;
+    position: sticky;
 }
 
-.button-navbar {
+.button-navbar,
+.button-navbar-games,
+.button-navbar-home {
+    font-family: 'Ubuntu', sans-serif;
     float: right;
+    margin-left: 10px;
+    background-color: transparent; 
+    color: white; 
+    border: none;
+    padding: 0 15px;
+
 }
 
-.button-navbar-home{
+.button-navbar-games {
     float: left;
 }
 
-.navbar:hover {
-    backdrop-filter: blur(10px);
+.button-navbar-home {
+    float: left;
+}
+
+.button-navbar:hover,
+.button-navbar-home:hover,
+.button-navbar-games:hover {
+    text-decoration: underline;
+    color: wheat;
+    cursor: url('/assets/cursors/Arrow.cur'), pointer;
+    
+    
+
 }
