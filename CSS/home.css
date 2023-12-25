@@ -43,8 +43,5 @@ body {
 .button-navbar-games:hover {
     text-decoration: underline;
     color: wheat;
-    cursor: url('/assets/cursors/Arrow.cur'), pointer;
     
-    
-
 }
